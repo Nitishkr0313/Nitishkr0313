@@ -1,0 +1,33 @@
+5.=> Define Person class with parameter firstName and lastName. Write a function fullName() inside function object to return 
+		fullName of that person. (Using constructor function)
+Ans=>  <script>
+           const person={
+             firstName: "Nitish",
+             lastName: "Kumar",
+           fullName: function(){
+            return this.firstName +" "+this.lastName;
+            }
+           };
+             document.write(peraon.fullName());
+      </script>
+
+6.=> Reverse given string ( Without using any build in method )
+		var sentence = 'Bangalore is the best Indian City'
+		output = 'City Indian best the is Bangalore'
+		
+		hint: 
+		use for loop, 
+		sentence.length for length of the string. 
+		string is a character array. you can access each charcter using index on sentence
+
+Ans=>     <script>
+             var str=['Bangalore','is', 'the', 'best', 'Indian', 'City'];
+             var res=" ";
+               for(int i=5;i>=0;i--)
+               {
+                 res +=str[i]+" ";
+               }
+              document.write("reversed string is:"+ "<br>");
+               document.write(res.slice(0,res.length-1));
+          </script>
+ 
