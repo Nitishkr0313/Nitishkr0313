@@ -5,7 +5,7 @@ ans=>
            <script>
            var workingDays = ['Sunday', 'Monday', 'Tuesday', 'Saturday', 'Saturday']
 		workingDays.sort();
-             document.write(workingDays.slice(1,3).length);
+             document.write(workingDays.slice(0,2).length);
             </script>
 
 3 => Given an Array, Replace non-working days with 'Holiday'. Consider Saturday, Sunday as non working days
